@@ -1,4 +1,4 @@
-# dsa4262-project
+# DSA4262-project
 
 1. Open your Command Line Interface (CLI) in the Python folder directory
 
