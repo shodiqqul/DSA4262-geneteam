@@ -1,4 +1,4 @@
-# DSA4262-project
+### DSA4262 Project
 
 1. Open your Command Line Interface (CLI) in the Python folder directory
 
@@ -17,7 +17,7 @@
 5. Run the following code in CLI to get the probabilities of an m6a modification at each transcript
 
 
-## Authors
+#### Authors
 
 Group GeneTeam:
 
