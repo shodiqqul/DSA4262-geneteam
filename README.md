@@ -16,7 +16,9 @@
 
 5. Run the following commands in CLI to install the relevant dependencies needed:
 > `pip install category_encoders`
+
 > `pip install joblib`
+
 > `pip install xgboost`
 
 6. Run the following code in CLI to get the probabilities of an m6a modification at each transcript where `file-name` is the name of the data.json file you wish to attain the scores for:
