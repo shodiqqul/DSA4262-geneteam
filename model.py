@@ -28,8 +28,7 @@ def data_preprocessing(filename):
 
   feature = pd.DataFrame(feature, columns = ["transcript_id", "transcript_position", "Sequence", "dwelling_1", "sd_1", "mean_1", "dwelling_2", "sd_2", "mean_2", "dwelling_3", "sd_3", "mean_3"])
   feature['transcript_position'] = feature['transcript_position'].astype('int')
-  test_data = pd.merge(data_csv, feature, on = ["transcript_id", "transcript_position"])
-  return(test_data)
+  return(feature)
 
 def feature_engineering(test_data):
   """ Kmerisation """
