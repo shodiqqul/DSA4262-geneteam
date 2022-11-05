@@ -5,21 +5,25 @@
 2. Create new folder for project `project-name` using the following command:
 > `mkdir project-name`
 
-3. Within the newly created project folder `project-name`, create a `data` subfolder:
+3. Within the newly created project folder `project-name`, create two subfolders named `data` and `results`:
 > `cd project-name`
-
+>
 > `mkdir data`
+> 
+> `mkdir results`
 
-3. Download python file `model.py` and save file in `project-name/data`
+3. Download python file `model.py` and save file in `project-name`
 
 4. Save all `data.json` files within same directory
 
 5. Run the following commands in CLI to install the relevant dependencies needed:
 > `pip install category_encoders`
-
+>
 > `pip install joblib`
-
+>
 > `pip install xgboost`
+>
+> `pip install -U imbalanced-learn`
 
 6. Run the following code in CLI to get the probabilities of an m6a modification at each transcript where `file-name` is the name of the data.json file you wish to attain the scores for:
 > `python model.py file-name`
