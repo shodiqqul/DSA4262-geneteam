@@ -14,7 +14,7 @@
 
 3. Download python file `model.py` and save file in `project-name`
 
-4. Save all `data.json` files within same directory
+4. Download the test file `test_data.json` and save it within the `data` subfolder
 
 5. Run the following commands in CLI to install the relevant dependencies needed:
 > `pip install category_encoders`
@@ -25,8 +25,14 @@
 >
 > `pip install -U imbalanced-learn`
 
-6. Run the following code in CLI to get the probabilities of an m6a modification at each transcript where `file-name` is the name of the data.json file you wish to attain the scores for:
-> `python model.py file-name`
+6. Change your directory to your project folder `project-name`
+
+7. Run the following code in CLI to get the probabilities of an m6A modification at each transcript with the test data set:
+> `python model.py ./data/test_data.json`
+
+8. If executed correctly, CLI prints "Done!"
+
+9. The results of the model will be in the `results` subfolder
 
 **Authors**
 
