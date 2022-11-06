@@ -9,6 +9,10 @@ $ python3 -m pip install --user --upgrade pip
 $ python3 -m pip install --user virtualenv
 ```
 
+If you are running on Ubuntu, you may need to install _pip_ and _virtual_env using the ```sudo``` command.
+
+```
+
 **2. Create a new virtual environment**
 
 ```
