@@ -17,9 +17,11 @@ The mean of the reads were taken for each **gene** and **transcription ID.**
 #### Feature Engineering
 
 1. Kmerisation
+
 To extract information while preserving sequences, we k-merised the sequence of 7 into 3-mers.
 
 2. Hash Encoding
+
 Due to the high cardinality nature of sequences and k-mers, we encoded the 3-mers into numeric via Hash Encoding as well as facilitating our use of XGBoost.
 
 #### Handling Imbalanced Dataset
