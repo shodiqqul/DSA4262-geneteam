@@ -56,7 +56,7 @@ We looked at:
 - Probability of modification for each transcript
 - Comparison of probabilities of different transcripts across different cancer types
 
-To view our interactive Tableu dashboard, click [here!](https://public.tableau.com/app/profile/gene.team/viz/shared/78BZKPMTP)
+To view our interactive Tableau dashboard, click [here!](https://public.tableau.com/app/profile/gene.team/viz/shared/78BZKPMTP)
 
 ---
 ### Authors
