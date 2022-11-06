@@ -26,17 +26,16 @@ Methods tried:
 - ADaptive SYNthetic Technique (ADASYN)
 
 #### Models
-1. XGBoost:
+**1. XGBoost:**
 - ROC AUC: **0.80**
 - PR AUC (minority class): **0.44**
 
-2. CatBoost:
-
-With ADASYN:
+**2. CatBoost:**
+_With ADASYN:_
 - ROC AUC: **0.78**
 - PR AUC: **0.33**
 
-With Sample Weights:
+_With Sample Weights:_
 - ROC AUC: **0.79**
 - PR AUC: **0.36**
 
