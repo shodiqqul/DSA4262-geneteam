@@ -1,5 +1,6 @@
 import sys
 import json
+import pathlib
 import numpy as np
 import pandas as pd
 import xgboost as xgb
@@ -91,5 +92,7 @@ if __name__ == '__main__':
   test_data = data_preprocessing(test_data_filename)
   test_data_featureEngineered = feature_engineering(test_data)
   results = main(test_data_featureEngineered)
+  
+  pathlib.Path("./results").mkdir(parents=True, exist_ok=True)
   results.to_csv("./results/results.csv", index=False)
   print("Done!")
