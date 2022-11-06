@@ -34,4 +34,4 @@ model_xgb = xgb.XGBClassifier(
 model_xgb.fit(x_train, y_train, verbose=True)
 
 # Save model as .ubj file
-model_xgb.save_model('model_xgb.ubj')
+model_xgb.save_model('./mode/model_xgb.ubj')
