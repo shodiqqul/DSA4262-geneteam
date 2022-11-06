@@ -110,12 +110,7 @@ If executed successfully, your Command Line Interface (CLI) will print "Done!".
 - A ```csv``` file, ```results.csv``` with the **prediction probabilities**, **transcript ID** and **transcript position**
 - Found under a new subdirectory: ```/Pipeline/results/results.csv```
 
-If you would like to view your ```results.csv``` from the CLI, you may install ```csvtool``` first:
+If you would like to view your ```results.csv``` from the CLI, you may use:
 ```
-$ sudo apt-get install csvtool
-```
-
-then, run:
-```
-$ csvtool readable results.csv | view -
+$ vim ./results/results.csv
 ```
