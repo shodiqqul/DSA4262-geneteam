@@ -1,19 +1,23 @@
+import sys
 import json
 import pathlib
 import numpy as np
 import pandas as pd
 
+# Get input filepaths
+data_info_path = sys.argv[1]
+data_json_path = sys.argv[2]
+
 # Convert data.info to .csv
-p = pathlib.Path('./data/data.info')
+p = pathlib.Path(data_info_path)
 p.rename(p.with_suffix('.csv'))
 
 # Import data.csv
-data_csv = pd.read_csv("./data/data.csv")
+new_path = p.parent / (p.name + '.csv')
 
 # Import training_data.json
 new = []
-#for line in open('./data/training_data.json', 'r'):
-for line in open('./data/dataset2.json', 'r'):
+for line in open(data_json_path, 'r'):
   new += [line[:-1]]
 
 # Feature dataframe with average of reads
