@@ -1,4 +1,4 @@
-# DSA4262: Identification of RNA modifications from direct RNA-Seq data
+## DSA4262: Identification of RNA modifications from direct RNA-Seq data
 Developed a machine learning method that identifies m6A RNA modifications.
 
 
