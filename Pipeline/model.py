@@ -6,8 +6,6 @@ import xgboost as xgb
 import category_encoders.hashing as ce
 
 def data_preprocessing(filename): 
-  data_csv = pd.read_csv("./data/data.csv")
-
   new = []
   for line in open(filename, 'r'):
     new += [line[:-1]]
