@@ -77,7 +77,7 @@ There will be intermediate ```csv``` files that are created but you may ignore t
 - A ```ubj``` file that is a saved version of the trained model (final output)
 
 
-## 4. Model Predicting via XGBoost
+## 4. Model Predicting with XGBoost
 
 ```
 $ python model.py <json file path>
