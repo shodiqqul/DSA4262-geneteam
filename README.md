@@ -30,19 +30,23 @@ Methods tried:
 - ADaptive SYNthetic Technique (ADASYN)
 
 #### Models
-**1. XGBoost:**
-- ROC AUC: **0.80**
-- PR AUC (minority class): **0.44**
 
-**2. CatBoost:**
+| XGBoost |Value |
+| ---------|:-------------:|
+| ROC AUC                 | 0.80 | 
+| PR AUC (minority class) | 0.44 | 
 
-_with ADASYN:_
-- ROC AUC: **0.78**
-- PR AUC: **0.33**
+| CatBoost with ADASYN |Value |
+| ---------|:-------------:|
+| ROC AUC                 | 0.78 | 
+| PR AUC (minority class) | 0.33 | 
 
-_with Sample Weights:_
-- ROC AUC: **0.79**
-- PR AUC: **0.36**
+| CatBoost with Sample Weights |Value |
+| ---------|:-------------:|
+| ROC AUC                 | 0.79 | 
+| PR AUC (minority class) | 0.36 | 
+
+We proceeded with an XGBoost model.
 
 #### Running our XGBoost model with SG-NEx data
 We looked at:
@@ -59,3 +63,24 @@ Group GeneTeam:
 - DIONE LIM YEE SZE
 - KEITH TAY XIANG RUI
 - MADHU BHARATHI ELANGO
+
+---
+### References
+
+[1]:  Zhang, W., Qian, Y., & Jia, G. (2021, August). The detection and functions of RNA modification M6a based on M6a writers and Erasers. The Journal of biological chemistry. Retrieved October 26, 2022, from https://doi.org/10.1016%2Fj.jbc.2021.100973
+
+[2]: Gao, R., Ye, M., Liu, B., Wei, M., Ma, D., & Dong, K. (1AD, January 1). M6A modification: A double-edged sword in tumor development. Frontiers. Retrieved October 26, 2022, from https://doi.org/10.3389/fonc.2021.679367
+
+[3]: Scikit-learn: Machine Learning in Python, Pedregosa et al., JMLR 12, pp. 2825-2830, 2011.
+
+[4]: Zou, Q., Xing, P., Wei, L., & Liu, B. (2019, February). Gene2vec: Gene subsequence embedding for prediction of mammalian n6-methyladenosine sites from mrna. RNA (New York, N.Y.). Retrieved October 26, 2022, from https://doi.org/10.1261%2Frna.069112.118
+
+[5]: Hashing. Hashing - Category Encoders 2.5.1.post0 documentation. (n.d.). Retrieved October 26, 2022, from https://contrib.scikit-learn.org/category_encoders/hashing.html
+
+[6]: Bonidia. (n.d.). Bonidia/Mathfeature: Feature extraction package for biological sequences. GitHub. Retrieved November 3, 2022, from https://github.com/Bonidia/MathFeature
+
+[7]: Akalin, A. (2020, September 30). Computational genomics with R. 5.10 How to deal with class imbalance. Retrieved October 26, 2022, from https://compgenomr.github.io/book/how-to-deal-with-class-imbalance.html
+
+[8]: Mishra, A. (2019). Machine learning in the AWS cloud: Add intelligence to applications with Amazon Sagemaker and Amazon Rekognition. Amazon. Retrieved October 26, 2022, from https://docs.aws.amazon.com/sagemaker/latest/dg/catboost-tuning.html
+
+[9]: Jain, A. (2022, June 15). XGBOOST parameters: XGBoost parameter tuning. Analytics Vidhya. Retrieved November 3, 2022, from https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/
