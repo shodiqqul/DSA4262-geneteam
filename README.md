@@ -6,6 +6,7 @@ If you would like to run our Pipeline and attain predictions, we have provided s
 
 **_Continue below for more details and documentation of our work._**
 
+---
 #### Data Preprocessing
 The mean of the reads were taken for each gene and transcription ID.
 
@@ -46,7 +47,9 @@ We looked at:
 - Probability of modification for each transcript
 - Comparison of probabilities of different transcripts across different cancer types
 
+To view our interactive Tableu dashboard, click [here!](https://public.tableau.com/app/profile/gene.team/viz/shared/78BZKPMTP)
 
+---
 ### Authors
 Group GeneTeam:
 - AHMAD AS-SHODIQQUL AMIN B M T
