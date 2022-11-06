@@ -4,7 +4,7 @@
 **1. Install/Upgrade _pip_ and _virtualenv_**
 
 ```
-$ python 3 -m pip install --user --upgrade pip
+$ python3 -m pip install --user --upgrade pip
 
 $ python3 -m pip install --user virtualenv
 ```
