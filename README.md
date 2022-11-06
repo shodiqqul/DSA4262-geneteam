@@ -1,4 +1,7 @@
-**DSA4262 Project**
+# DSA4262: Identification of RNA modifications from direct RNA-Seq data
+Developed a machine learning method that identifies m6A RNA modifications.
+
+## 1. 
 
 1. Open your Command Line Interface (CLI) in the Python folder directory
 
