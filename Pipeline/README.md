@@ -102,6 +102,8 @@ Run it with:
 $ python model.py ./data/test_data.json
 ```
 
+If executed successfully, your Command Line Interface (CLI) will print "Done!".
+
 **Inputs:**
 - A ```json``` file containing the test dataset.
 
@@ -109,4 +111,12 @@ $ python model.py ./data/test_data.json
 - A ```csv``` file, ```results.csv``` with the **prediction probabilities**, **transcript ID** and **transcript position**
 - Found under a new subdirectory: ```/Pipeline/results/results.csv```
 
+If you would like to view your ```results.csv``` from the CLI, you may install ```csvtool``` first:
+```
+$ sudo apt-get install csvtool
+```
 
+then, run:
+```
+$ csvtool readable results.csv | view -
+```
