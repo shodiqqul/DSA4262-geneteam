@@ -67,7 +67,7 @@ Group GeneTeam:
 - MADHU BHARATHI ELANGO
 
 
-A special thanks to Professor Jonathan Göke, Christopher Hendra and Yuk Kei Wan
+A special thanks to Professor Jonathan Göke, Christopher Hendra and Yuk Kei Wan.
 
 ---
 ### References
