@@ -72,7 +72,7 @@ def feature_engineering(test_data):
 
 def main(data_kmerised_encoded):
   """ Load Model """
-  filename = 'model_xgb.ubj'
+  filename = './model/model_xgb.ubj'
   model_xgb = xgb.XGBClassifier()
   model_xgb.load_model(filename)
 
