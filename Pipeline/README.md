@@ -8,7 +8,6 @@ $ python 3 -m pip install --user --upgrade pip
 
 $ python3 -m pip install --user virtualenv
 ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 **2. Create a new virtual environment**
 
