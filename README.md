@@ -32,11 +32,11 @@ Methods tried:
 
 **2. CatBoost:**
 
-with ADASYN:_
+_with ADASYN:_
 - ROC AUC: **0.78**
 - PR AUC: **0.33**
 
-with Sample Weights:_
+_with Sample Weights:_
 - ROC AUC: **0.79**
 - PR AUC: **0.36**
 
