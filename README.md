@@ -21,6 +21,7 @@ Due to the high cardinality nature of sequences and k-mers, we encoded the 3-mer
 #### Handling Imbalanced Dataset
 
 There was an imbalance in the dataset as observations with ```class label: 1``` is not equivalent to ```class label: 0```. We explored different methods to overcome this.
+
 Methods tried:
 - Sample weights
 - Synthetic Minority Oversampling TEchnique (SMOTE) 
