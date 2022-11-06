@@ -12,7 +12,7 @@ If you would like to run our Pipeline and attain predictions, we have provided s
 
 ---
 #### Data Preprocessing
-The mean of the reads were taken for each gene and transcription ID.
+The mean of the reads were taken for each **gene** and **transcription ID.**
 
 #### Feature Engineering
 
@@ -79,3 +79,6 @@ A special thanks to Professor Jonathan Göke, Christopher Hendra and Yuk Kei Wan
 [3]: Akalin, A. (2020, September 30). Computational genomics with R. 5.10 How to deal with class imbalance. Retrieved October 26, 2022, from https://compgenomr.github.io/book/how-to-deal-with-class-imbalance.html
 
 [4]: Jain, A. (2022, June 15). XGBOOST parameters: XGBoost parameter tuning. Analytics Vidhya. Retrieved November 3, 2022, from https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/
+
+[5]: Chen, Ying, et al. "A systematic benchmark of Nanopore long read RNA sequencing for transcript level analysis in human cell lines." bioRxiv (2021). doi: https://doi.org/10.1101/2021.04.21.440736
+
