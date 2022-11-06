@@ -1,5 +1,7 @@
 ## DSA4262: Identification of RNA modifications from direct RNA-Seq data
-m6A modifications is attributed to physiological processes like stem cell differentiation, viral infection and cancer progression. We aim to develop a machine learning method that identifies m6A RNA modifications that may go as far as to allow detection of cancer.
+
+m6A modifications is attributed to physiological processes like stem cell differentiation, viral infection and cancer progression. 
+We aim to develop a machine learning method that identifies m6A RNA modifications that may go as far as to allow detection of cancer.
 
 ### Running our Pipeline to predict with our model
 If you would like to run our Pipeline and attain predictions, we have provided step-by-step instructions on how to run our pipeline [here.](https://github.com/shodiqqul/DSA4262-geneteam/tree/main/Pipeline)
