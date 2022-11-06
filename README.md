@@ -31,11 +31,12 @@ Methods tried:
 - PR AUC (minority class): **0.44**
 
 **2. CatBoost:**
-_With ADASYN:_
+
+with ADASYN:_
 - ROC AUC: **0.78**
 - PR AUC: **0.33**
 
-_With Sample Weights:_
+with Sample Weights:_
 - ROC AUC: **0.79**
 - PR AUC: **0.36**
 
