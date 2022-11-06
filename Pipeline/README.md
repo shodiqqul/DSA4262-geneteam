@@ -87,7 +87,6 @@ There will be intermediate ```csv``` files that are created but you may ignore t
 - A ```csv``` file with data that has been feature engineered (intermediate)
 - A ```ubj``` file that is a saved version of the trained model (final output)
 
-
 ## 4. Model Predicting with XGBoost
 
 ```
